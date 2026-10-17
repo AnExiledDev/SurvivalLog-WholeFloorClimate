@@ -43,7 +43,7 @@ If temperatures look wrong, a zone does not warm up, or something else feels off
 
 ## Requirements
 
-- Survival Log 1.1.18317. Built and tested on this version; a game update can break it until the mod is updated.
+- Survival Log 1.1.18902. Built and tested on this version; a game update can break it until the mod is updated.
 - The [BepInEx Pack for Survival Log](https://www.nexusmods.com/survivallog/mods/12), the BepInEx 6 (IL2CPP) build for the game.
 
 ## Install
@@ -57,13 +57,13 @@ Delete `WholeFloorClimate.dll` from the `BepInEx\plugins` folder. For a clean sl
 
 ## Configuration
 
-Settings live in `BepInEx\config\com.dev.survivallog.wholefloorclimate.cfg`, created the first time the game starts with the mod. Edit it while the game is closed; changes apply at the next game start. See [CONFIG.md](CONFIG.md) for every setting.
+Settings live in `BepInEx\config\com.dev.survivallog.wholefloorclimate.cfg`, created the first time the game starts with the mod. Edit it while the game is closed; changes apply at the next game start. Each setting in the cfg file is explained in English and Simplified Chinese. See [CONFIG.md](CONFIG.md) for every setting.
 
 ## Troubleshooting
 
-Tested on Survival Log 1.1.18317 with BepInEx `6.0.0-be.788`.
+Tested on Survival Log 1.1.18902 with BepInEx `6.0.0-be.788`.
 
-Check `BepInEx\LogOutput.log` for a line like `===== Whole Floor Climate 0.1.0 started: Indoor and Sunroom on, Terrace off, Basement off`, followed by `device heat is shared by ...` naming the pooled zones. The same lines are in `BepInEx\whole-floor-climate.log`, which survives restarts and trims itself past 1 MB. A line starting `could not hook` means part of the mod is off and the game's own numbers are used there.
+Check `BepInEx\LogOutput.log` for a line like `===== Whole Floor Climate 0.1.1 started: Indoor and Sunroom on, Terrace off, Basement off`, followed by `device heat is shared by ...` naming the pooled zones. The same lines are in `BepInEx\whole-floor-climate.log`, which survives restarts and trims itself past 1 MB. A line starting `could not hook` means part of the mod is off and the game's own numbers are used there.
 
 ## Feedback and bug reports
 
