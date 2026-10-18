@@ -20,12 +20,9 @@ Works in English and Chinese.
 
 [size=5]Known issues[/size]
 [list]
-[*]Back up your save before trying it for the first time.[/*]
 [*]Rooms warm up more easily, so warm-room goals are easier to reach.[/*]
 [*]The thermal display still shows the Terrace as a room without device heat, even when it is pooled.[/*]
-[*]An AC standing on the Terrace may not count as powered for the rest of the pool. Its heat still counts.[/*]
 [/list]
-If you run into anything strange, please tell me (see Feedback below).
 
 [size=5]Requirements[/size]
 [list]
@@ -74,12 +71,9 @@ Open source under MIT: [url=https://github.com/AnExiledDev/SurvivalLog-WholeFloo
 
 [size=5]已知问题[/size]
 [list]
-[*]第一次使用前请备份存档。[/*]
 [*]房间更容易变暖，所以温暖房间的目标更容易达成。[/*]
 [*]即使露台加入了共享，温度显示仍然把露台当作没有设备热量的房间。[/*]
-[*]放在露台上的空调可能不会让共享范围内的其他房间算作已供电，但它的热量依然算数。[/*]
 [/list]
-如果遇到任何奇怪的情况，请告诉我（见下方反馈）。
 
 [size=5]前置要求[/size]
 [list]

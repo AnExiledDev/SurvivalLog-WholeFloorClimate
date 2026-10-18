@@ -31,15 +31,9 @@ The greenhouse on the terrace already counts as the Sunroom in the game, so it p
 
 ## Known issues and limits
 
-This mod changes temperatures, which feed into comfort, plants and the warm-room goals. Back up your save before trying it for the first time.
-
 - Rooms warm up more easily, so the warm-room tags and "all rooms warm" progress are easier to reach. That is the point of the mod, but it does make the game easier.
-- If the game counts the Terrace as outdoors, it never reports an AC standing on the Terrace as powered. That AC then does not count toward the pool's "AC powered" check, although its heat still pools.
 - The thermal display still marks the Terrace as a zone without device heat, even when it is pooled and its temperature includes the pool's heat.
 - The game caps room temperature only for zones it warms with devices itself. A pooled Terrace is not capped, the same as in the game.
-- If one of the mod's hooks fails, the game's own numbers stand for that check and the log says so once.
-
-If temperatures look wrong, a zone does not warm up, or something else feels off, please tell me (see [Feedback](#feedback-and-bug-reports)).
 
 ## Requirements
 
